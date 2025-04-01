@@ -1,0 +1,740 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8062dc26a1ccff2438119ca670a3e7cf, type: 3}
+  m_Name: test
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  ID: 
+  mySkill: {fileID: 0}
+  type: 0
+  tags: 0
+  BeautyName: 
+  CanBeSilenced: 0
+  CanBeDisarmed: 1
+  CantMoveWhileCasting: 0
+  CastingSpeedMult:
+    type: 0
+    baseNumber: 0
+    baseMult: 1
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  CastFreezeTime:
+    type: 0
+    baseNumber: 0
+    baseMult: 0
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  CastFreezeTimeDontScaleWithAbilityBonus: 0
+  LockCursorForAll: 0
+  activations:
+  - {fileID: 3400082446295228221}
+  HideInPassives: 0
+  DontMakeInvalidNoise: 0
+  Values: []
+  icon: {fileID: 0}
+  description: 
+  duplicateThis: {fileID: 0}
+--- !u!114 &3400082446295228221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3382ce681d5cb2d4a98afd963db8925b, type: 3}
+  m_Name: test0
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: targets
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Target, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: limitations
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[Limitation, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effects
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[Effect, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OnUpdate
+      Entry: 6
+      Data: 
+    - Name: OnPress
+      Entry: 6
+      Data: 
+    - Name: OnRelease
+      Entry: 6
+      Data: 
+    - Name: OnHold
+      Entry: 6
+      Data: 
+    - Name: OnWindUp
+      Entry: 6
+      Data: 
+    - Name: OnStartWindUp
+      Entry: 6
+      Data: 
+    - Name: OnCast
+      Entry: 6
+      Data: 
+    - Name: OnWindDown
+      Entry: 6
+      Data: 
+    - Name: OnEndWindDown
+      Entry: 6
+      Data: 
+    - Name: OnPreparingCast
+      Entry: 6
+      Data: 
+    - Name: OnNotPreparingCast
+      Entry: 6
+      Data: 
+    - Name: OnReadyToCast
+      Entry: 6
+      Data: 
+    - Name: OnInterrupt
+      Entry: 6
+      Data: 
+    - Name: OnHit
+      Entry: 6
+      Data: 
+    - Name: OnDestroy
+      Entry: 6
+      Data: 
+    - Name: OnCallback
+      Entry: 6
+      Data: 
+    - Name: OnHitDamage
+      Entry: 6
+      Data: 
+  ID: test0
+  CastAutomatically: 0
+  WindUp:
+    type: 0
+    baseNumber: 0
+    baseMult: 0
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  WindDown:
+    type: 0
+    baseNumber: 0
+    baseMult: 0
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  WindingDontScaleWithAbilityBonus: 0
+  MinCursorDistance: 0
+  MaxCursorDistance: Infinity
+  LockCursorDuringWindUp: 1
+  IndicateRangeOnUI: 0
+  IndicatePointOnUI: 0
+  IndicatePointWidth: 1
+  PointToCursorOnUI: 0
+  ArrowWidth:
+    type: 0
+    baseNumber: 0
+    baseMult: 1
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  PointTowardsCursor: 128
+  PointTowardsWhilePassive: 0
+  StaticCooldown:
+    type: 0
+    baseNumber: 0
+    baseMult: 0
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  CantPrepareStaticCooldown: 1
+  CooldownID: Cooldown
+  CooldownGlobal: 0
+  CooldownSave: 0
+  CooldownStartOnCooldown: 0
+  CooldownStartWithRandomCooldown: 0
+  CooldownTiming: 4
+  DontUseUniqueID: 0
+  CooldownDontScaleWithAbilityBonus: 0
+  StaminaCost:
+    type: 0
+    baseNumber: 0
+    baseMult: 1
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  StaminaActivation: 4
+  DontCostStaminaWhilePassive: 1
+  DontResetStaminaTimer: 0
+  StaminaDontUseAbilityBonus: 0
+  StaminaGainDontUseAbilityBonus: 0
+  StaminaGainCDDontUseAbilityBonus: 0
+  animationClip: {fileID: 0}
+  animationSpeed:
+    type: 0
+    baseNumber: 0
+    baseMult: 1
+    mainSubValue:
+      type: 4
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 3
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  animationTiming: 128
+  AnimationDontScaleWithAbilityBonus: 0
+  soundClip: {fileID: 0}
+  soundVolume:
+    type: 0
+    baseNumber: 0
+    baseMult: 0.2
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      traitType: 0
+      abilityBonus: -1
+      negateTrait: 0
+      checkTargetTrait: 0
+      abilityValueNumber: 0
+      upgradeID: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+    upgradeID: 0
+  soundTiming: 4
+  HoldButtonToCast: 0
+  SetCastingAbility: 1
+  SetPreparingAbility: 1
+  DontBuffer: 0
+  DontBufferOnSelf: 0
+  CastOnPress: 0
+  CastAnyTime: 0
+  CanCastIfDead: 0
+  CanOnlyCastIfDead: 0
+  CantBeInterrupted: 0
+  ShowCanCastIfCanPrepare: 0
+  ReplaceIcon: {fileID: 0}
+  DontSyncAnything: 0
+  RunLocallyOnClient: 0
+  SendReliably: 0
+  isSimple: 0
+  _ability: {fileID: 11400000}
+  OverrideThisIsNotSimple: 0
+  SimpleOutput: 

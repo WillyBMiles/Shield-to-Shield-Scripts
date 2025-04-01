@@ -1,0 +1,553 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2462fdefc8c418f4caafeaef723a6218, type: 3}
+  m_Name: Lycanthrope
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: bba0497cdc2ea1f41b1c7aeba89feec6, type: 2}
+    - {fileID: 11400000, guid: 214dcf89de43e6a47800579309620a39, type: 2}
+    - {fileID: 11400000, guid: 9b7da5f134bd1eb46845db2f3db7a2af, type: 2}
+    - {fileID: 11400000, guid: 59679d892d6e22644b5e55c3fbf49b7f, type: 2}
+    - {fileID: 11400000, guid: c81a983791a39ff4db42ef866ec055e6, type: 2}
+    - {fileID: 11400000, guid: 3075a4019d711b14385e755738587bab, type: 2}
+    - {fileID: 11400000, guid: 5615a1c19db6f244c9c2d9936b584e01, type: 2}
+    - {fileID: 11400000, guid: 74f12272dd1a45040b2e831a16d4fffb, type: 2}
+    - {fileID: 11400000, guid: b3f50794d3ae74e41b5ca772839b515a, type: 2}
+    - {fileID: 11400000, guid: 43aa9fbd9ca5b034d9833baa190e4e83, type: 2}
+    - {fileID: 11400000, guid: 21d43a5bf9a13d74c871bfb24554a4e4, type: 2}
+    - {fileID: 11400000, guid: 768ea9485b2c8854dabf17d9a3045fb6, type: 2}
+    - {fileID: 11400000, guid: 055a13753cec7b04d8179406394caa72, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: attribute
+      Entry: 7
+      Data: 0|Attribute, Assembly-CSharp
+    - Name: _myAttributeGenerator
+      Entry: 6
+      Data: 
+    - Name: randomPassiveFloats
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: randomActiveFloats
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: percentBonuses
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[TraitBonus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flatBonuses
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[FlatBonus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: statBonuses
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[StatBonus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: resistances
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Resistance, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: activeAbilities
+      Entry: 6
+      Data: 
+    - Name: passiveAbilities
+      Entry: 6
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[System.ValueTuple`2[[System.Single,
+        mscorlib],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: myItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: activeAbilities
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: passiveAbilities
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Form1Actives
+      Entry: 7
+      Data: 10|ch.sycoforge.Unity.Editor.Persistence.Util.SerializableDictionary`2[[ClassAbilityWrapper,
+        Assembly-CSharp],[Control, Assembly-CSharp]], ch.sycoforge.Unity.Editor
+    - Name: comparer
+      Entry: 7
+      Data: 11|System.Collections.Generic.ObjectEqualityComparer`1[[ClassAbilityWrapper,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 12|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 4
+    - Name: ability
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 13|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 10
+    - Name: ability
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Form1Passives
+      Entry: 7
+      Data: 14|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 15|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 2
+    - Name: ability
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 2
+    - Name: ability
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Form2Actives
+      Entry: 7
+      Data: 17|ch.sycoforge.Unity.Editor.Persistence.Util.SerializableDictionary`2[[ClassAbilityWrapper,
+        Assembly-CSharp],[Control, Assembly-CSharp]], ch.sycoforge.Unity.Editor
+    - Name: comparer
+      Entry: 9
+      Data: 11
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 18|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 2
+    - Name: ability
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 19|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 6
+    - Name: ability
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 20|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 8
+    - Name: ability
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 7
+      Data: 21|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 4
+    - Name: ability
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: $v
+      Entry: 10
+      Data: 11
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Form2Passives
+      Entry: 7
+      Data: 22|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 23|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 2
+    - Name: ability
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Lycanthrope
+  Description: 'On initial inspection the Lycanthrope is nothing but a particular
+    gruff person, but when the conditions are right, and the Lycanthrope is pushed
+    to the brink, they experience a transformation: they become a massive unstoppable
+    beast fueled by rage and <b>Bloodlust</b>.'
+  sprite: {fileID: 21300000, guid: 2985f0c09df89ed42844f8cfc8686794, type: 3}
+  color: {r: 0.76470596, g: 0, b: 0, a: 1}
+  ShowTertiaryBar: 1
+  barValue:
+    type: 1
+    baseNumber: 0
+    baseMult: 1
+    mainSubValue:
+      type: 3
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: BLOODLUST
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  maxBarValue:
+    type: 0
+    baseNumber: 0
+    baseMult: 20
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  barFillColor: {r: 0.764151, g: 0, b: 0, a: 1}
+  UseForms: 1

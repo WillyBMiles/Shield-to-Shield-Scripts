@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d47f335e769ffd4580b60e7c5ad5616, type: 3}
+  m_Name: Not_Sovereign
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: limitation
+      Entry: 7
+      Data: 0|CheckFloat, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: CheckFloat0.403685
+    - Name: timing
+      Entry: 3
+      Data: 0
+    - Name: _targets
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: invert
+      Entry: 5
+      Data: true
+    - Name: CantPrepare
+      Entry: 5
+      Data: false
+    - Name: CustomCantPrepareMessage
+      Entry: 1
+      Data: 
+    - Name: sign
+      Entry: 3
+      Data: 0
+    - Name: FloatID
+      Entry: 1
+      Data: SOV
+    - Name: TargetID
+      Entry: 1
+      Data: SELF
+    - Name: value
+      Entry: 7
+      Data: 2|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 3|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 4|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 5|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanCastIfThereIsNoMatchingFloat
+      Entry: 5
+      Data: false
+    - Name: CharacterWide
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+  targetMask: 127

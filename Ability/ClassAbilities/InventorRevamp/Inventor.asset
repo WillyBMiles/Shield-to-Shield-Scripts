@@ -1,0 +1,430 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2462fdefc8c418f4caafeaef723a6218, type: 3}
+  m_Name: Inventor
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 00841d46f73e7bb4b8faa4ec2dd6f9e6, type: 2}
+    - {fileID: 11400000, guid: dd89248e38f22ce48834f7b70b60122c, type: 2}
+    - {fileID: 11400000, guid: 94dccb7e973a6db42a13513340fffcd0, type: 2}
+    - {fileID: 11400000, guid: b6b775d2f435d294fb3e07f56f225d30, type: 2}
+    - {fileID: 11400000, guid: bfd222b1b18f5e1449ac8bcb18e94eae, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: attribute
+      Entry: 7
+      Data: 0|Attribute, Assembly-CSharp
+    - Name: _myAttributeGenerator
+      Entry: 6
+      Data: 
+    - Name: randomPassiveFloats
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: randomActiveFloats
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.Single, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: percentBonuses
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[TraitBonus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: flatBonuses
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[FlatBonus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: statBonuses
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[StatBonus, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: resistances
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[Resistance, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: activeAbilities
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: passiveAbilities
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[System.Int32, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[System.ValueTuple`2[[System.Single,
+        mscorlib],[System.Int32, mscorlib]], mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: myItem
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: activeAbilities
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 11|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 2
+    - Name: ability
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 12|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 4
+    - Name: ability
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 13|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 6
+    - Name: ability
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 8
+    - Name: ability
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: passiveAbilities
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 16|ClassAbilityWrapper, Assembly-CSharp
+    - Name: LevelEarned
+      Entry: 3
+      Data: 2
+    - Name: ability
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Form1Actives
+      Entry: 6
+      Data: 
+    - Name: Form1Passives
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: Form2Actives
+      Entry: 6
+      Data: 
+    - Name: Form2Passives
+      Entry: 7
+      Data: 18|System.Collections.Generic.List`1[[ClassAbilityWrapper, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  Name: Inventor
+  Description: The inventor gathers <b>Scrap</b> that falls off of enemies and uses
+    it to construct useful creations, focusing on helping their allies and controlling
+    areas of the battlefield.
+  sprite: {fileID: 21300000, guid: 41b79ccf7f04ba34fb45bdb9464a19bd, type: 3}
+  color: {r: 0.7176471, g: 0.41176474, b: 0.08627451, a: 1}
+  ShowTertiaryBar: 1
+  barValue:
+    type: 1
+    baseNumber: 0
+    baseMult: 1
+    mainSubValue:
+      type: 3
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: SCRAP
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 1
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  maxBarValue:
+    type: 0
+    baseNumber: 0
+    baseMult: 30
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  barFillColor: {r: 0.7169812, g: 0.41042942, b: 0.08567693, a: 1}
+  UseForms: 0

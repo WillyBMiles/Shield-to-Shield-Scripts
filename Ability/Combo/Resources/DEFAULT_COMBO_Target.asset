@@ -1,0 +1,10137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3382ce681d5cb2d4a98afd963db8925b, type: 3}
+  m_Name: DEFAULT_COMBO_Target
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 7400000, guid: 1d910b119aef05c4fad2be481abe6125, type: 2}
+    - {fileID: 7400000, guid: 1243a74ba43d3c640921f03675d30545, type: 2}
+    - {fileID: 7400000, guid: 56987adee7b71134bb839494a2ab7ad1, type: 2}
+    - {fileID: 2388226879894399399, guid: 590fb25a2884b6644b59158354c0f572, type: 3}
+    - {fileID: 8300000, guid: 377bfff3a5587d44f9e9c80527137928, type: 3}
+    - {fileID: 8300000, guid: 22025c279207ae245b8d8f37c8de878c, type: 3}
+    - {fileID: 4409202877497239805, guid: d9628056be9a3c64b9e533e8b28bd6c4, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: targets
+      Entry: 7
+      Data: 0|System.Collections.Generic.List`1[[Target, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|Target_Arc, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Target_Arc0.7696186
+    - Name: timing
+      Entry: 3
+      Data: 4
+    - Name: _targets
+      Entry: 7
+      Data: 2|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetID
+      Entry: 1
+      Data: Arc
+    - Name: ClearTargets
+      Entry: 5
+      Data: true
+    - Name: CanPrepare
+      Entry: 5
+      Data: false
+    - Name: LockWhileCasting
+      Entry: 5
+      Data: false
+    - Name: uiOptions
+      Entry: 7
+      Data: 3|Target+UI, Assembly-CSharp
+    - Name: IndicateTargets
+      Entry: 5
+      Data: false
+    - Name: TargetWidth
+      Entry: 4
+      Data: 2
+    - Name: IndicateRanges
+      Entry: 5
+      Data: false
+    - Name: PointToTargets
+      Entry: 5
+      Data: false
+    - Name: HandleHeight
+      Entry: 4
+      Data: 0.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MaxDistance
+      Entry: 7
+      Data: 4|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 4
+    - Name: mainSubValue
+      Entry: 7
+      Data: 5|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 4
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 2
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 6|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 7|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: MinDistance
+      Entry: 7
+      Data: 8|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 9|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 10|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 11|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OriginTargetID
+      Entry: 1
+      Data: SELF
+    - Name: UseTargetFilter
+      Entry: 5
+      Data: false
+    - Name: targetFilter
+      Entry: 7
+      Data: 12|Target+TargetFilter, Assembly-CSharp
+    - Name: value1
+      Entry: 7
+      Data: 13|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 14|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 15|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 16|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: comparison
+      Entry: 3
+      Data: 0
+    - Name: value2
+      Entry: 7
+      Data: 17|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 18|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 19|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 20|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanTargetUntargettable
+      Entry: 5
+      Data: false
+    - Name: CanTargetTrulyUntargettable
+      Entry: 5
+      Data: false
+    - Name: StoreCountAsFloat
+      Entry: 5
+      Data: false
+    - Name: CountFloatID
+      Entry: 6
+      Data: 
+    - Name: layerMask
+      Entry: 3
+      Data: 2
+    - Name: TargetDirectionID
+      Entry: 1
+      Data: CURSOR
+    - Name: angle
+      Entry: 7
+      Data: 21|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 145
+    - Name: mainSubValue
+      Entry: 7
+      Data: 22|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 23|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 24|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: number
+      Entry: 7
+      Data: 25|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 999
+    - Name: mainSubValue
+      Entry: 7
+      Data: 26|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 27|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 28|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TargetPointsToo
+      Entry: 5
+      Data: false
+    - Name: CanTargetCaster
+      Entry: 5
+      Data: true
+    - Name: UIShowAngle
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: limitations
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[Limitation, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: effects
+      Entry: 7
+      Data: 30|System.Collections.Generic.List`1[[Effect, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 31|DirectDamage, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: HitDamage
+    - Name: timing
+      Entry: 3
+      Data: 4
+    - Name: _targets
+      Entry: 7
+      Data: 32|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 33|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 34|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 35|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 36|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 37|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 38|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 4
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 3
+    - Name: negateTrait
+      Entry: 5
+      Data: true
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 39|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 40|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 6
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: true
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: CallbackDamage
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: DirectDamage0.1215707
+    - Name: TargetID
+      Entry: 1
+      Data: Arc
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: Callback
+    - Name: damage
+      Entry: 7
+      Data: 42|Damage, Assembly-CSharp
+    - Name: amount
+      Entry: 7
+      Data: 43|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1.25
+    - Name: mainSubValue
+      Entry: 7
+      Data: 44|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 8
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 45|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 46|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TriggersAttackOnHit
+      Entry: 5
+      Data: true
+    - Name: TriggersAbilityOnHit
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 47|PlayAnimation, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: WindUpAnimation
+    - Name: timing
+      Entry: 3
+      Data: 128
+    - Name: _targets
+      Entry: 7
+      Data: 48|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 49|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 50|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 51|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 52|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 53|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 54|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 55|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 56|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 6
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: false
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: Callback
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: PlayAnimation0.7624578
+    - Name: TargetID
+      Entry: 1
+      Data: SELF
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: Callback
+    - Name: animation
+      Entry: 3
+      Data: 0
+    - Name: playmode
+      Entry: 3
+      Data: 0
+    - Name: animationSpeed
+      Entry: 7
+      Data: 58|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 59|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 4
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 3
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 60|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 61|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: animationClip
+      Entry: 10
+      Data: 0
+    - Name: interruptSelf
+      Entry: 5
+      Data: true
+    - Name: CycleAnimations
+      Entry: 5
+      Data: true
+    - Name: animationsToCycle
+      Entry: 7
+      Data: 62|System.Collections.Generic.List`1[[UnityEngine.AnimationClip, UnityEngine.AnimationModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 63|Effect_Decoration, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: HitAnimation
+    - Name: timing
+      Entry: 3
+      Data: 16384
+    - Name: _targets
+      Entry: 7
+      Data: 64|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 65|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 66|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 67|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 68|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 69|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 70|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 71|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 72|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 6
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: false
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: Callback
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 73|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: Effect_Decoration0.3062108
+    - Name: TargetID
+      Entry: 1
+      Data: HIT
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: CallbackDamage
+    - Name: appearance
+      Entry: 10
+      Data: 3
+    - Name: duration
+      Entry: 7
+      Data: 74|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 75|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 76|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 77|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: width
+      Entry: 7
+      Data: 78|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0.2
+    - Name: mainSubValue
+      Entry: 7
+      Data: 79|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 80|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 81|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: height
+      Entry: 7
+      Data: 82|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 83|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 84|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 85|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DecorationID
+      Entry: 1
+      Data: 
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FollowCharacter
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 86|Effect_Sound, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: HIT_Sound
+    - Name: timing
+      Entry: 3
+      Data: 16384
+    - Name: _targets
+      Entry: 7
+      Data: 87|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 88|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 89|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 90|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 91|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 92|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 93|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 94|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 95|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 7
+      Data: 96|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0.1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 97|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 98|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 99|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: false
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: Callback
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 100|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: Effect_Sound0.0374378
+    - Name: TargetID
+      Entry: 1
+      Data: HIT
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: CallbackDamage
+    - Name: clip
+      Entry: 10
+      Data: 4
+    - Name: clips
+      Entry: 7
+      Data: 101|System.Collections.Generic.List`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: volume
+      Entry: 4
+      Data: 0.15
+    - Name: TargetCharactersInstead
+      Entry: 5
+      Data: true
+    - Name: NonLocalTargetVolumeModifier
+      Entry: 4
+      Data: 1
+    - Name: PlayAtOrigin
+      Entry: 5
+      Data: false
+    - Name: NonLocalVolumeModifier
+      Entry: 4
+      Data: 1
+    - Name: SoundID
+      Entry: 1
+      Data: 
+    - Name: CancelSound
+      Entry: 5
+      Data: false
+    - Name: Loop
+      Entry: 5
+      Data: false
+    - Name: Length
+      Entry: 7
+      Data: 102|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: Infinity
+    - Name: mainSubValue
+      Entry: 7
+      Data: 103|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 104|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 105|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FadeOutTime
+      Entry: 7
+      Data: 106|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 107|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 108|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 109|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 110|Effect_Sound, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: CAST_Sound
+    - Name: timing
+      Entry: 3
+      Data: 4
+    - Name: _targets
+      Entry: 7
+      Data: 111|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 112|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 113|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 114|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 115|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 116|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 117|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 118|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 119|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 6
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: false
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: Callback
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 120|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: Effect_Sound0.01720238
+    - Name: TargetID
+      Entry: 1
+      Data: SELF
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: CastCallback
+    - Name: clip
+      Entry: 10
+      Data: 5
+    - Name: clips
+      Entry: 7
+      Data: 121|System.Collections.Generic.List`1[[UnityEngine.AudioClip, UnityEngine.AudioModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: volume
+      Entry: 4
+      Data: 0.15
+    - Name: TargetCharactersInstead
+      Entry: 5
+      Data: false
+    - Name: NonLocalTargetVolumeModifier
+      Entry: 4
+      Data: 1
+    - Name: PlayAtOrigin
+      Entry: 5
+      Data: false
+    - Name: NonLocalVolumeModifier
+      Entry: 4
+      Data: 1
+    - Name: SoundID
+      Entry: 1
+      Data: 
+    - Name: CancelSound
+      Entry: 5
+      Data: false
+    - Name: Loop
+      Entry: 5
+      Data: false
+    - Name: Length
+      Entry: 7
+      Data: 122|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: Infinity
+    - Name: mainSubValue
+      Entry: 7
+      Data: 123|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 124|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 125|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FadeOutTime
+      Entry: 7
+      Data: 126|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 127|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 128|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 129|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 130|Effect_PointTowards, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Effect_PointTowards0.6653952
+    - Name: timing
+      Entry: 3
+      Data: 129
+    - Name: _targets
+      Entry: 7
+      Data: 131|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 132|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 133|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 134|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 135|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 136|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 137|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 138|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 139|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 7
+      Data: 140|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 141|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 142|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 143|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: false
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: Callback
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 144|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: Effect_PointTowards0.6653952
+    - Name: TargetID
+      Entry: 1
+      Data: CURSOR
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: Callback
+    - Name: TargetCharacter
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 145|DirectDamage, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Bleed
+    - Name: timing
+      Entry: 3
+      Data: 4
+    - Name: _targets
+      Entry: 7
+      Data: 146|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 147|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 148|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 149|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 150|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 151|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0.3
+    - Name: mainSubValue
+      Entry: 7
+      Data: 152|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 153|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 154|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 155|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0.6
+    - Name: mainSubValue
+      Entry: 7
+      Data: 156|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 157|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 158|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 159|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0.9
+    - Name: mainSubValue
+      Entry: 7
+      Data: 160|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 161|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 162|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 163|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 164|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 165|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 166|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 7
+      Data: 167|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 168|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 169|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 170|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: false
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: Callback
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 171|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: DirectDamage0.03219688
+    - Name: TargetID
+      Entry: 1
+      Data: Arc
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: Callback
+    - Name: damage
+      Entry: 7
+      Data: 172|Damage, Assembly-CSharp
+    - Name: amount
+      Entry: 7
+      Data: 173|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0.2
+    - Name: mainSubValue
+      Entry: 7
+      Data: 174|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 8
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 175|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 176|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: type
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: TriggersAttackOnHit
+      Entry: 5
+      Data: false
+    - Name: TriggersAbilityOnHit
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 177|Effect_Decoration, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: Effect_Decoration0.9866661
+    - Name: timing
+      Entry: 3
+      Data: 4
+    - Name: _targets
+      Entry: 7
+      Data: 178|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 1
+      Data: CURSOR
+    - Name: 
+      Entry: 1
+      Data: SELF
+    - Name: 
+      Entry: 1
+      Data: HIT
+    - Name: 
+      Entry: 1
+      Data: ORIGIN HIT
+    - Name: 
+      Entry: 1
+      Data: Arc
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: advancedOptions
+      Entry: 7
+      Data: 179|AdvancedEffectOptions, Assembly-CSharp
+    - Name: CallbackIDs
+      Entry: 7
+      Data: 180|System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: BatchPointsAndCharacters
+      Entry: 5
+      Data: false
+    - Name: PointsOnly
+      Entry: 5
+      Data: false
+    - Name: CharactersOnly
+      Entry: 5
+      Data: false
+    - Name: TargetIDs
+      Entry: 7
+      Data: 181|System.String[], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: delays
+      Entry: 7
+      Data: 182|System.Collections.Generic.List`1[[Value, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DelayCanBeInterrupted
+      Entry: 5
+      Data: false
+    - Name: RetainTargetOnDelay
+      Entry: 5
+      Data: false
+    - Name: CanOnlyBeHitByThisEffectOncePer
+      Entry: 7
+      Data: 183|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 184|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 185|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 186|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CanOnlyHitBySharedValue
+      Entry: 1
+      Data: 
+    - Name: CanOnlyHappenOncePer
+      Entry: 7
+      Data: 187|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 0
+    - Name: mainSubValue
+      Entry: 7
+      Data: 188|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 189|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 190|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: GenerateCallback
+      Entry: 5
+      Data: false
+    - Name: UpdateTargetsWhenCalledback
+      Entry: 5
+      Data: false
+    - Name: TriggeringCallback
+      Entry: 1
+      Data: Callback
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: conditions
+      Entry: 7
+      Data: 191|System.Collections.Generic.List`1[[EffectCondition, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: CheckConditionsBeforeDelay
+      Entry: 5
+      Data: false
+    - Name: EffectID
+      Entry: 1
+      Data: Effect_Decoration0.9866661
+    - Name: TargetID
+      Entry: 1
+      Data: Arc
+    - Name: OriginID
+      Entry: 1
+      Data: SELF
+    - Name: CallbackID
+      Entry: 1
+      Data: Callback
+    - Name: appearance
+      Entry: 10
+      Data: 6
+    - Name: duration
+      Entry: 7
+      Data: 192|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 193|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 194|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 195|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: width
+      Entry: 7
+      Data: 196|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 197|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 198|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 199|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: height
+      Entry: 7
+      Data: 200|Value, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 0
+    - Name: baseMult
+      Entry: 4
+      Data: 1
+    - Name: mainSubValue
+      Entry: 7
+      Data: 201|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: secondValue
+      Entry: 7
+      Data: 202|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: thirdValue
+      Entry: 7
+      Data: 203|SubValue, Assembly-CSharp
+    - Name: type
+      Entry: 3
+      Data: 0
+    - Name: baseNumber
+      Entry: 4
+      Data: 1
+    - Name: independentAdd
+      Entry: 4
+      Data: 0
+    - Name: stat
+      Entry: 3
+      Data: 0
+    - Name: reduction
+      Entry: 5
+      Data: false
+    - Name: percentChange
+      Entry: 4
+      Data: 10
+    - Name: min
+      Entry: 4
+      Data: 0
+    - Name: max
+      Entry: 4
+      Data: 1
+    - Name: StoredID
+      Entry: 6
+      Data: 
+    - Name: defaultFloat
+      Entry: 4
+      Data: 0
+    - Name: checkTarget
+      Entry: 5
+      Data: false
+    - Name: AbilityWide
+      Entry: 5
+      Data: false
+    - Name: SaveWide
+      Entry: 5
+      Data: false
+    - Name: damageType
+      Entry: 3
+      Data: 0
+    - Name: checkResistanceTarget
+      Entry: 5
+      Data: false
+    - Name: traitType
+      Entry: 3
+      Data: 0
+    - Name: negateTrait
+      Entry: 5
+      Data: false
+    - Name: checkTargetTrait
+      Entry: 5
+      Data: false
+    - Name: attributeNumber
+      Entry: 3
+      Data: 0
+    - Name: active
+      Entry: 5
+      Data: true
+    - Name: abilityValueNumber
+      Entry: 3
+      Data: 0
+    - Name: invertItemQuality
+      Entry: 5
+      Data: false
+    - Name: globalValueType
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: WhichAbilityValue
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: DecorationID
+      Entry: 1
+      Data: 
+    - Name: color
+      Entry: 7
+      Data: UnityEngine.Color, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: FollowCharacter
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: OnUpdate
+      Entry: 6
+      Data: 
+    - Name: OnPress
+      Entry: 6
+      Data: 
+    - Name: OnRelease
+      Entry: 6
+      Data: 
+    - Name: OnHold
+      Entry: 6
+      Data: 
+    - Name: OnWindUp
+      Entry: 6
+      Data: 
+    - Name: OnStartWindUp
+      Entry: 6
+      Data: 
+    - Name: OnCast
+      Entry: 6
+      Data: 
+    - Name: OnWindDown
+      Entry: 6
+      Data: 
+    - Name: OnEndWindDown
+      Entry: 6
+      Data: 
+    - Name: OnPreparingCast
+      Entry: 6
+      Data: 
+    - Name: OnNotPreparingCast
+      Entry: 6
+      Data: 
+    - Name: OnReadyToCast
+      Entry: 6
+      Data: 
+    - Name: OnInterrupt
+      Entry: 6
+      Data: 
+    - Name: OnHit
+      Entry: 6
+      Data: 
+    - Name: OnDestroy
+      Entry: 6
+      Data: 
+    - Name: OnCallback
+      Entry: 6
+      Data: 
+    - Name: OnHitAbility
+      Entry: 6
+      Data: 
+    - Name: OnHitAttack
+      Entry: 6
+      Data: 
+  ID: DefaultComboTarget
+  CastAutomatically: 0
+  WindUp:
+    type: 1
+    baseNumber: 0
+    baseMult: 0.25
+    mainSubValue:
+      type: 4
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 3
+      negateTrait: 1
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  WindDown:
+    type: 1
+    baseNumber: 0
+    baseMult: 0.25
+    mainSubValue:
+      type: 4
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 3
+      negateTrait: 1
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  MinCursorDistance: 1
+  MaxCursorDistance: 3
+  LockCursorDuringWindUp: 1
+  IndicateRangeOnUI: 0
+  IndicatePointOnUI: 0
+  IndicatePointWidth: 1
+  PointToCursorOnUI: 0
+  StaticCooldown:
+    type: 0
+    baseNumber: 0
+    baseMult: 0
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  CantPrepareStaticCooldown: 1
+  CooldownID: '-'
+  CooldownGlobal: 0
+  CooldownSave: 0
+  CooldownStartOnCooldown: 0
+  CooldownStartWithRandomCooldown: 0
+  CooldownTiming: 0
+  DontUseUniqueID: 0
+  TheurgyCost:
+    type: 0
+    baseNumber: 0
+    baseMult: 0
+    mainSubValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    secondValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    thirdValue:
+      type: 0
+      baseNumber: 1
+      independentAdd: 0
+      stat: 0
+      reduction: 0
+      percentChange: 10
+      min: 0
+      max: 1
+      StoredID: 
+      defaultFloat: 0
+      checkTarget: 0
+      AbilityWide: 0
+      SaveWide: 0
+      damageType: 0
+      checkResistanceTarget: 0
+      traitType: 0
+      negateTrait: 0
+      checkTargetTrait: 0
+      attributeNumber: 0
+      active: 1
+      abilityValueNumber: 0
+      invertItemQuality: 0
+      globalValueType: 0
+    WhichAbilityValue: 0
+  TheurgyActivation: 0
+  TheurgyCantPerpare: 0
+  HoldButtonToCast: 0
+  RepeatCast: 0
+  SetCastingAbility: 1
+  SetPreparingAbility: 0
+  DontBuffer: 0
+  CastAnyTime: 0
+  CanCastIfDead: 0
+  CanOnlyCastIfDead: 0
+  CantBeInterrupted: 0
+  ShowCanCastIfCanPrepare: 0
+  ReplaceIcon: {fileID: 0}
+  _ability: {fileID: 0}
